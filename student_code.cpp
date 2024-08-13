@@ -3,7 +3,7 @@ using namespace std;
 
 string isPrime(int n) {
     if (n <= 1) {
-        return "NO";
+        return "no";
     }
 
     for(int i = 2; i * i <= n; i++) {
